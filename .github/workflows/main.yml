@@ -73,7 +73,7 @@ jobs:
         echo "Iniciando a aplicação..."
 
         node app.js
-
+        node test
         echo "Aplicação executada com sucesso!"        
 
     - name: 5. Mensagem de sucesso
